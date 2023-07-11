@@ -1,0 +1,78 @@
+#oo{
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+    height: 500px;
+    width: 20rem;
+    background-color: rgb(32, 75, 250);
+    box-shadow: 2px 5px 10px rgba(208, 6, 6, 0.833);
+    border: none;
+}
+h4{font-style: oblique;
+    font-size: 40px;
+    color: rgb(245, 24, 101);
+    text-align: center;
+    border: 1px red solid;
+    margin: 0px 0px 0px 25px;
+    border: none;
+    text-shadow: 2px 2px 10px #f10a9d;
+}
+#display{
+    border: 2px solid black;
+    border-radius: 0px 0px 15px 15px;
+    width:16.7rem;
+    height: 100px;
+    background-color: rgb(152, 60, 60);
+    margin-left: 0.8rem;
+    box-shadow: 5px 5px 10px white,-5px -5px 10px white;
+    border: ;
+}
+ #display{
+    color: rgb(227, 185, 185);
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 5px;
+    border: 2px solid rgb(95, 3, 232);
+    padding-left: 20px;
+    border: ;
+    
+    }
+#AC,#DEL,#percentage,#slash{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(230, 13, 13);
+    background-color: rgb(234, 174, 64);
+    font-size: 15px;
+    margin: 5px;
+    border: none;
+}
+#seven,#eight,#nine,#multiply,#four,#five,#six,#minus,#one,#two,#three,#plus,#double,#zero,#point,#equal{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(230, 13, 13);
+    background-color: rgb(234, 217, 217);
+    font-size: 15px;
+    margin: 5px;
+    border: none;
+}
+#first,#second,#third,#fourth,#fifth{
+    border: 1px solid red;
+    margin-left: 36px;
+    border: none;
+
+}
+#AC:active,#DEL:active,#percentage:active,#slash:active,#seven:active,#eight:active,#nine:active,#multiply:active,#four:active,#five:active,#six:active,#minus:active,#one:active,#two:active,#three:active,#plus:active,#double:active,#zero:active,#point:active,#equal:active{
+    color: skyblue;
+    box-shadow: 3px 3px 6px rgb(241, 241, 10);
+}
+#multiply,#minus,#plus,#equal{
+    background-color: rgb(234, 174, 64);
+}
+#oo:hover{
+    box-shadow: 5px 5px 10px color-mix(in srgb, rgb(84, 53, 198) 50%, gold 50%);
+}
+body{
+    box-sizing:bolder-box;
+    background: linear-gradient(110deg,#f10a9d,#ffffff,#536753,#787578,#08584346);
+}
